@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		89F1F2DB1FEFCEB700C16BB8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89F1F2DA1FEFCEB700C16BB8 /* main.cpp */; };
+		89F1F2E41FEFCED500C16BB8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89F1F2E11FEFCED500C16BB8 /* main.cpp */; };
+		89F1F2E51FEFCED500C16BB8 /* functions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89F1F2E31FEFCED500C16BB8 /* functions.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		89F1F2D71FEFCEB700C16BB8 /* FuzzyLogic */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FuzzyLogic; sourceTree = BUILT_PRODUCTS_DIR; };
-		89F1F2DA1FEFCEB700C16BB8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		89F1F2E11FEFCED500C16BB8 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		89F1F2E21FEFCED500C16BB8 /* header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = header.h; sourceTree = "<group>"; };
+		89F1F2E31FEFCED500C16BB8 /* functions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = functions.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,9 @@
 		89F1F2D91FEFCEB700C16BB8 /* FuzzyLogic */ = {
 			isa = PBXGroup;
 			children = (
-				89F1F2DA1FEFCEB700C16BB8 /* main.cpp */,
+				89F1F2E31FEFCED500C16BB8 /* functions.cpp */,
+				89F1F2E21FEFCED500C16BB8 /* header.h */,
+				89F1F2E11FEFCED500C16BB8 /* main.cpp */,
 			);
 			path = FuzzyLogic;
 			sourceTree = "<group>";
@@ -119,7 +124,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89F1F2DB1FEFCEB700C16BB8 /* main.cpp in Sources */,
+				89F1F2E41FEFCED500C16BB8 /* main.cpp in Sources */,
+				89F1F2E51FEFCED500C16BB8 /* functions.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,18 +238,22 @@
 		89F1F2DF1FEFCEB700C16BB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 56CGNC3ACC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
 		89F1F2E01FEFCEB700C16BB8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 56CGNC3ACC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};

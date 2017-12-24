@@ -2,6 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:functions.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:header.h">
+   </FileRef>
+   <FileRef
+      location = "group:main.cpp">
+   </FileRef>
+   <FileRef
       location = "self:FuzzyLogic.xcodeproj">
    </FileRef>
 </Workspace>

@@ -20,7 +20,8 @@ int main()
 
     createList(L);
     for(int i = 0; i < 10; i++){
-    cout<<"\n B"<<i+1<<endl;
+    system("cls");
+    cout<<"B"<<i+1<<endl;
     emo = arr[i][0];
     pro = arr[i][1];
     cout<<"Emotion : "<<emo<<endl;
